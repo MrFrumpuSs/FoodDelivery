@@ -1,0 +1,462 @@
+@media (min-width: 0px) and (max-width : 767px)
+{
+    header {
+        position: relative;
+        padding-top: 17px;
+        height: auto;
+        width: 100%;
+        .navigation {
+            padding-bottom: 46px;
+            &__logo {
+                img {
+                    width: 134px;
+                }         
+            }
+            &__nav {
+            }
+        
+            &__telegram {
+                margin-right: 20px;
+                img {
+                    width: 20px;
+                }
+            }
+        
+            &__tg-list-item {
+                display: none;
+            }      
+            &__phone-list-item {
+                font-size: 16px;
+                line-height: 23px;
+            }
+            &__phone-subtitle-list-item {
+                font-size: 12px;
+                line-height: 17px;
+            }
+        }
+        .header-content {
+            flex-direction: column;
+            align-items: center;
+            &__h {
+                font-size: 34px;
+                line-height: 44px;
+                white-space: nowrap;
+            }
+    
+            &__izoico {
+                max-width: 320px;
+                margin-top: -40px;
+            }
+            &__input-name {
+                padding: 0 5px 0 42px;
+                background: url(../img/user.svg) no-repeat 13px 50%;
+                background-size: 15px 15px;
+                margin-bottom: 19px;
+            }
+    
+            &__input-phone {
+                padding: 0 5px 0 42px;
+                background: url(../img/phone.svg) no-repeat 13px 50%;
+                background-size: 15px 15px;
+                margin-bottom: 19px;
+            }
+    
+            &__submit {
+                margin-bottom: 6px;
+            }
+    
+            &__form-title {
+                font-size: 20px;
+                line-height: 20px;
+                margin-bottom: 18px;
+            }
+        }
+    }
+    main {
+        .adventages {
+            padding-top: 50px;
+            padding-bottom: 22px;
+            &__row {
+                flex-wrap: wrap;
+            }
+            &__item {
+                flex: 0 1 50%;
+                padding: 0px 0px;
+                margin-bottom: 27px;
+            }
+            &__img {
+                height: 100px;
+                margin-bottom: 10px;
+                img {
+                    width: 100px;
+                }
+            }
+            &__title {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            &__h {
+                line-height: 22px;
+            }
+        }
+        .faq {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 50px;
+            &__h {
+                font-size: 24px;
+                line-height: 26px;
+                margin-bottom: 19px;
+            }
+            &__accordion {
+                margin-bottom: 25px;
+            }
+            &__accordion-item {
+                margin-bottom: 24px;
+            }
+            
+            &__accordion-label {
+                width: 100%;
+                height: 60px;
+                padding-left: 8px;
+                padding-right: 44px;
+                font-size: 14px;
+                line-height: 14px;
+                &::before {
+                    right: 11px;
+                }
+            }
+            &__accordion-content {
+                width: 100%;
+                padding-right: 10px;
+                padding-left: 8px;
+                font-size: 14px;
+                line-height: 17px;
+            }
+            &__accordion-item.active .faq__accordion-content {
+                max-height: 180px;
+            }
+
+            &__form-wrapper {
+                position: unset;
+                top: unset;
+            }
+            &__form {
+                margin-bottom: 15px;
+            }
+            &__form-title {
+                font-size: 16.5px;
+                line-height: 16.5px;
+                margin-bottom: 7px;
+            }
+            &__form-subtitle {
+                font-size: 12px;
+                line-height: 12px;
+                margin-bottom: 29px;
+            }
+            &__input-name {
+                padding: 0 5px 0 42px;
+                background: url(../img/user.svg) no-repeat 13px 50%;
+                background-size: 15px 15px;
+                margin-bottom: 19px;
+            }
+    
+            &__input-phone {
+                padding: 0 5px 0 42px;
+                background: url(../img/phone.svg) no-repeat 13px 50%;
+                background-size: 15px 15px;
+                margin-bottom: 19px;
+            }
+    
+            &__submit {
+                margin-bottom: 6px;
+            }
+    
+            &__tg-form {
+                width: 100%;
+                height: 75px;
+                img {
+                    width: 25px;
+                }
+            }
+            &__tg-form-title {
+                font-size: 16px;
+                line-height: 16px;
+                padding-top: 13px;
+                padding-bottom: 10px;
+            }
+        }
+        .wehave {
+            padding-top: 20px;
+            &__h {
+                font-size: 24px;
+                line-height: 26px;
+                margin-bottom: 37px;
+            }
+    
+            &__row {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 16px;
+            }
+    
+            &__item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 19px 0;
+            }
+    
+    
+            &__button {
+                    width: 100%;
+                    max-width: 306px;
+                    height: 64px;
+                    font-size: 18px;
+                    line-height: 21px;
+                    margin-bottom: 27px;
+            }
+        }
+        .reviews {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            &__h {
+                font-size: 24px;
+                line-height: 26px;
+                margin-bottom: 23px;
+            }
+    
+            &__review-block {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &__prev {
+                border: 2px solid #407BFF;
+                border-radius: 5px;
+                min-width: 20px;
+                height: 20px;
+                &::before {
+                    border-radius: 5px;
+                }
+                &:hover:before {
+                    border-radius: 5px;
+                }
+                svg {
+                    width: 9.5px;
+                }
+            }
+            &__next {
+                border: 2px solid #407BFF;
+                border-radius: 5px;
+                min-width: 20px;
+                height: 20px;
+                &::before {
+                    border-radius: 5px;
+                }
+                &:hover:before {
+                    border-radius: 5px;
+                }
+                svg {
+                    width: 9.5px;
+                }
+            }
+            &__review-item {
+                width: 100%;
+                max-width: 320px;
+                margin: 0 10px;
+                margin-bottom: 0px;
+                padding: 15px 10px 15px 14px;
+            }
+    
+            &__profile {
+                margin-bottom: 10px;
+            }
+    
+            &__avatar {
+                width: 50px;
+                margin-right: 9px;
+            }
+            &__txt {
+                font-size: 14px;
+                line-height: 15px;
+            }
+            &__fio {
+                margin-bottom: 5px;
+            }
+    
+            &__review {
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+        .map {
+            padding-bottom: 50px;
+            &__h {
+                font-size: 24px;
+                line-height: 26px;
+                margin-bottom: 26px;
+            }
+            
+            &__row {
+                flex-direction: column;
+            }
+    
+            &__rightpart {
+                width: 100%;
+                height: 255px;
+            }
+    
+            &__leftpart {
+                width: 100%;
+                padding: 29px 15px;
+                max-height: auto;
+                height: auto;
+            }
+    
+            &__item {
+                margin-bottom: 30px;
+            }
+    
+            &__txt {
+                font-size: 14px;
+                line-height: 17px;  
+            }
+    
+            &__title {
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+    
+            &__subtitle {
+                font-weight: normal;
+            }
+        }
+    }
+    .footer {
+        padding: 24px 0;
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        &__rightpart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    
+        &__copy {
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 1px;
+        }
+        &__logo {
+            margin-right: 0px;
+            margin-bottom: 15px;
+            img {
+                width: 137px;
+            }
+        }
+        &__policy {
+            font-size: 9px;
+            line-height: 11px;
+        }
+    
+        &__leftpart {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    
+        &__developer {
+            font-size: 12px;
+            line-height: 15px;
+            color: #212529;
+        }
+    }
+    //Общие элементы
+    .form {
+        max-width: 320px;
+        height: auto;
+        padding: 20px 25px;
+    }
+    .form-error {
+        font-size: 12px;
+    }
+    .input {
+        max-width: 306px;
+        height: 64px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .submit {
+        max-width: 306px;
+        width: 100%;
+        height: 64px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .confidentiality {
+        font-size: 11px;
+        line-height: 11px;
+    }
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 320px;
+    }
+    //Выездное меню
+    .headhesive
+    {
+        display: none;
+    }
+    .headhesive--stick
+    {
+        display: none;
+    }
+    //Модалка
+    .modal-close {
+        padding: 12px;
+        img {
+            width: 12px;
+        }
+    }
+    .modal-success {
+
+            &__img {
+                width: 45px;
+                margin-bottom: 15px;
+            }
+
+            &__text {
+                font-size: 16px;
+                line-height: 24px;
+            }
+    }
+    .modal-policy {
+            &__title {
+                font-size: 18px;
+                text-align: center;
+                line-height: 24px;
+            }
+
+            &__text {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+    }
+    .modal-success {
+        max-width: 320px;
+    }
+    .modal-policy {
+        max-width: 320px;
+    }
+}
