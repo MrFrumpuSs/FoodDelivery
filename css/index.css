@@ -748,6 +748,9 @@ main .map__subtitle {
   line-height: 28px;
   color: #FFFFFF;
   transition: 0.25s;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .submit:hover {
   cursor: pointer;

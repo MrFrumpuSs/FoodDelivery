@@ -725,6 +725,7 @@ main {
     line-height: 28px;
     color: #FFFFFF;
     transition: .25s;
+    appearance: none;
     &:hover {
         cursor: pointer;
         background-color: #3364D1;
